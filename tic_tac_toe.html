@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Tic-Tac-Toe|by Kamal Awasthi</title>
+    
+    <!-- Bootstrap Core CSS -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    -->
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--scripts -->
+    <script src="js/script.js"></script>
+    
+    </head>
+    <body>
+        <div style="max-height:500px;">
+                    <div style="widht:50%;float:right;margin-top:200px;padding-right:500px;">
+    <table style="float:left;">
+        <tr><td><input type="text" size="5" id="player1"  value="0">Player1</td></tr>
+        <tr><td><input type="text" size="5" id="player2"  value="0">Player2</td></tr>
+        <tr><td><input type="text" size="5" id="ties"  value="0">Ties</td></tr>
+                </table></div> 
+        <div style="width:50%;padding-left:400px;">    
+            <center><u ><h1>TIC-TAC-TOE</h1></u></center>
+        <table border="1" style="margin-bottom:20px;">
+        <tr>
+        <td><a href="javascript:Move('A')"><img src="" border=0 height=100 width=100 id="A"/></a></td>
+        <td><a href="javascript:Move('B')"><img src="" border=0 height=100 width=100 id="B"/></a></td>
+        <td><a href="javascript:Move('C')"><img src="" border=0 height=100 width=100 id="C"/></a></td>
+        </tr>
+
+        <tr>
+        <td><a href="javascript:Move('D')"><img src="" border=0 height=100 width=100 id="D"/></a></td>
+        <td><a href="javascript:Move('E')"><img src="" border=0 height=100 width=100 id="E"/></a></td>
+        <td><a href="javascript:Move('F')"><img src="" border=0 height=100 width=100 id="F"/></a></td>
+        </tr>
+        
+        <tr>
+        <td><a href="javascript:Move('G')"><img src="" border=0 height=100 width=100 id="G"/></a></td>
+        <td><a href="javascript:Move('H')"><img src="" border=0 height=100 width=100 id="H"/></a></td>
+        <td><a href="javascript:Move('I')"><img src="" border=0 height=100 width=100 id="I"/></a></td>
+        </tr>
+    </table> 
+    <center>        
+    <input type="button" value="Play Again!" onClick="playAgain();">
+    &nbsp;&nbsp;&nbsp;
+        <input type="button" value="Game Help!" onClick="help();">
+            </center>    
+        </div>    
+        </div>    
+    </body>
+</html>
+    
