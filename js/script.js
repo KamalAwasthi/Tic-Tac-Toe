@@ -130,6 +130,8 @@ function process()
     if(who_won == 3)
         {
             alert("It is a Tie!");
+            count_ties++
+            document.getElementById('ties').value = count_ties;
         }
 }
 
